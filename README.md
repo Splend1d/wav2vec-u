@@ -13,11 +13,13 @@ Similar to [wav2vec 2.0](https://github.com/pytorch/fairseq/blob/master/examples
 In **/path/to/data/with_silence** you need a *train.tsv* file as well as (optionally) *{valid,test}.{tsv,wrd,phn}*. It is nice to have *10h.{tsv,phn}* files there too for reproducing the ablation study on  layer selection. In **/path/to/data/without_silence** you have the same files, except *.tsv* files contain audios with silences removed using rVAD.
 
 Pre-requisites: (Done, Covered by activating the following environment)
+
+custom image -> /w2vu
 ```shell
-# custom image -> /w2vu
 conda activate /ASR
-for optimal performance, use 8 gpus
 ```
+for optimal performance, use 8 gpus
+
 * set FAIRSEQ_ROOT environmental variable to your fairseq installation
 * set RVAD_ROOT environmental variable to a checkout of [rVADfast](https://github.com/zhenghuatan/rVADfast)
 * set KENLM_ROOT environmental variable to the location of [KenLM](https://github.com/kpu/kenlm) binaries
