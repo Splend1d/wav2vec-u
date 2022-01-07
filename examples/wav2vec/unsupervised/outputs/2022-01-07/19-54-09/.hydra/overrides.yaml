@@ -1,0 +1,6 @@
+- kaldi_root=/ASR/pkgs/pykaldi/tools/kaldi/
+- fst_dir=/home/splend1dchan/wav2vec-u/examples/wav2vec/unsupervised/workspace/data/wiki103-30000/lm/G2P/fst/phn_to_phn_sil
+- lm_arpa=/home/splend1dchan/wav2vec-u/examples/wav2vec/unsupervised/workspace/data/wiki103-30000/lm/G2P/phones/lm.phones.filtered.06.arpa
+- data_dir=/home/splend1dchan/wav2vec-u/examples/wav2vec/unsupervised/workspace/data/wiki103-30000/lm/G2P/phones
+- in_labels=phn
+- blank_symbol='<SIL>'

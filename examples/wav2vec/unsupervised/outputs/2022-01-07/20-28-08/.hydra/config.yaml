@@ -1,0 +1,10 @@
+_name: null
+data_dir: /home/splend1dchan/wav2vec-u/examples/wav2vec/unsupervised/workspace/data/wiki103-30000/lm/G2P/phones
+fst_dir: /home/splend1dchan/wav2vec-u/examples/wav2vec/unsupervised/workspace/data/wiki103-30000/lm/G2P/fst/phn_to_phn_sil
+in_labels: phn
+out_labels: null
+wav2letter_lexicon: null
+lm_arpa: /home/splend1dchan/wav2vec-u/examples/wav2vec/unsupervised/workspace/data/wiki103-30000/lm/G2P/phones/lm.phones.filtered.06.arpa
+kaldi_root: /ASR/pkgs/pykaldi/tools/kaldi/
+blank_symbol: <SIL>
+silence_symbol: null
